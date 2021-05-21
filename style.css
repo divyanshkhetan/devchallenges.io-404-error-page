@@ -137,6 +137,7 @@ a{
     .textArea{
         margin-left: 1vw;
         margin-right: 1vw;
+        flex-wrap: wrap;
     }
 
     .mainContainer{
@@ -145,6 +146,7 @@ a{
         justify-content: center;
         align-items: center;
         gap: 5vh;
+        flex-wrap: wrap;
     }
 
     .img{
