@@ -124,6 +124,7 @@ a{
     .container{
         position: fixed;
         margin: 10px;
+        margin-top: 5px;
         width: 100vw;
         padding-top: 0px;
         overflow: hidden;
@@ -147,6 +148,7 @@ a{
         justify-content: center;
         align-items: center;
         gap: 5vh;
+        text-align: center;
     }
 
     .img{
@@ -155,15 +157,21 @@ a{
 
 
     #bigText{
-        font-size: 10vw;
+        text-align: center;
+        font-size: 7vw;
         line-height: 6.5vh;
     }
 
     #smallText{
-        font-size: 7vw;
+        text-align: center;
+        font-size: 5vw;
     }
 
     #backToHomepage{
         font-size: 4vw;
+    }
+
+    #creator{
+        font-size: 0.7rem;
     }
 }
