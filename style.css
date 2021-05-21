@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Inconsolata";
+    src: url(./Fonts/Inconsolata/Inconsolata.otf);
+
+    font-family: "Space Mono";
+    src: url(./Fonts/space-mono/SpaceMono-Regular.ttf);
+
+    font-family: "Montserrat";
+    src: url(./Fonts/MontserratAlternates-Regular.ttf);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.container{
+    margin: 0px 5%;
+    padding: 0px;
+    padding-top: 2%;
+}
+
+#topMessage{
+    font-family: "Inconsolata";
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.1em;
+    word-spacing: 0.2em;
+    text-align: left;
+    color: #333333;
+    user-select: none;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 15vh;
+    user-select: none;
+}
+
+.img{
+    width: 60%;
+}
+
+img{
+    width: 100%;
+}
+
+.textArea{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    gap: 1.5rem;
+    /* user-select: none; */
+}
+
+#bigText{
+    font-family: "Space Mono";
+    font-size: 3.7vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5vw;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #333333;
+}
+
+#smallText{
+    font-family: "Space Mono";
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #4F4F4F;
+}
+
+#backToHomepage{
+    background: #333333;
+    color: #ffffff;
+    border: none;
+    font-family: "Space Mono";
+    font-size: 1.5vw;
+    padding: 15px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#backToHomepage:hover{
+    background:#000000;
+    color: #e6e5e5;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+#creator{
+    color: #BDBDBD;
+    bottom: 10px;
+    position: fixed;
+    font-family: "Montserrat";
+}
+
+a{
+    color: #BDBDBD;
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+
+@media(max-width: 680px){
+    .container{
+        margin: 10px;
+        width: 100vw;
+        padding-top: 0px;
+    }
+
+    #topMessage{
+        padding-top: 10px;
+        font-size: 6vw;
+        margin-bottom: 0px;
+    }
+
+    .textArea{
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .mainContainer{
+        margin-top: 10vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+    }
+
+    .img{
+        width: 60%;
+    }
+
+
+    #bigText{
+        font-size: 10vw;
+        line-height: 6.5vh;
+    }
+
+    #smallText{
+        font-size: 7vw;
+    }
+
+    #backToHomepage{
+        font-size: 4vw;
+    }
+}
