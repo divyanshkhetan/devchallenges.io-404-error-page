@@ -122,6 +122,7 @@ a{
 
 @media(max-width: 680px){
     .container{
+        position: fixed;
         margin: 10px;
         width: 100vw;
         padding-top: 0px;
@@ -137,16 +138,15 @@ a{
     .textArea{
         margin-left: 1vw;
         margin-right: 1vw;
-        flex-wrap: wrap;
     }
 
     .mainContainer{
+        position: fixed;
         margin-top: 10vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 5vh;
-        flex-wrap: wrap;
     }
 
     .img{
